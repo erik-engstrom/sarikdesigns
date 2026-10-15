@@ -80,6 +80,7 @@
             <a class="btn btn-green btn-lg" href="#contact">Book a free site review</a>
             <a class="btn btn-outline btn-lg" href="#how-it-works">See how it works</a>
           </div>
+          <p class="chips-label">What we do</p>
           <ul class="hero-chips" aria-label="What we do">
             <li><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2.5"/><path d="M3 9h18"/></svg>Websites</li>
             <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.5M8.2 13.2l7.6 4.5"/></svg>Socials</li>
@@ -255,6 +256,7 @@
         <h2>Simple packages, clear quotes.</h2>
         <div class="grid-3 packages">
           <article class="card package">
+            <span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2.5"/><path d="M3 9h18M12 12.5v5M9.5 15h5"/></svg></span>
             <h3>Launch</h3>
             <p class="for">For businesses without a website yet.</p>
             <p class="price">[YOUR PRICE]</p>
@@ -267,6 +269,7 @@
             <a class="btn btn-outline btn-block" href="mailto:hello@sarikdesigns.com?subject=Quote%3A%20Launch%20package">Get a quote</a>
           </article>
           <article class="card package featured">
+            <span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11a8 8 0 0 0-14.3-4.9L4 8"/><path d="M4 4v4h4"/><path d="M4 13a8 8 0 0 0 14.3 4.9L20 16"/><path d="M20 20v-4h-4"/></svg></span>
             <h3>Refresh <span class="badge">Most complete</span></h3>
             <p class="for">For businesses with an outdated site.</p>
             <p class="price">[YOUR PRICE]</p>
@@ -279,6 +282,7 @@
             <a class="btn btn-light btn-block" href="mailto:hello@sarikdesigns.com?subject=Quote%3A%20Refresh%20package">Get a quote</a>
           </article>
           <article class="card package">
+            <span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.5M8.2 13.2l7.6 4.5"/></svg></span>
             <h3>Align</h3>
             <p class="for">For businesses happy with their site.</p>
             <p class="price">[YOUR PRICE]</p>
@@ -313,7 +317,33 @@
       <div class="wrap cta-inner">
         <h2>Let's make your business easy to find.</h2>
         <p>Start with a free site review. We'll look at your website, socials and search listings and send back a short, plain-English list of what we'd fix first.</p>
-        <a class="btn btn-white btn-lg" href="mailto:hello@sarikdesigns.com?subject=Free%20site%20review">Book a free site review</a>
+        <form class="review-form" id="review-form" novalidate>
+          <div class="field">
+            <label for="f-name">Your name</label>
+            <input id="f-name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="f-business">Business name</label>
+            <input id="f-business" name="business" type="text" autocomplete="organization" required>
+          </div>
+          <div class="field">
+            <label for="f-email">Email</label>
+            <input id="f-email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="f-site">Current website <span>(if you have one)</span></label>
+            <input id="f-site" name="website" type="text" inputmode="url" placeholder="yourbusiness.com">
+          </div>
+          <div class="field full">
+            <label for="f-notes">Anything we should know? <span>(optional)</span></label>
+            <textarea id="f-notes" name="notes" rows="3"></textarea>
+          </div>
+          <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <div class="form-actions full">
+            <button class="btn btn-white btn-lg" type="submit">Book a free site review</button>
+            <p class="form-status" role="status" aria-live="polite"></p>
+          </div>
+        </form>
         <p class="contact-line">sarikdesigns.com · <a href="mailto:hello@sarikdesigns.com">hello@sarikdesigns.com</a> · [YOUR PHONE]</p>
       </div>
     </section>

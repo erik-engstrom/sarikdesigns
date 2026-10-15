@@ -28,7 +28,11 @@ Search `index.html` for `[` to find them:
 - `[YOUR PRICE]` (x3) and `[#]` pages
 - `[TYPICAL TIMELINE]`
 - `[YOUR PHONE]`
-- Email is set to `hello@sarikdesigns.com`; change it if you use a different address.
+- Email is set to `hello@sarikdesigns.com` in `index.html` and `script.js`; change it if you use a different address.
+
+## Review request form
+
+The form at the bottom of the page works out of the box by opening a pre-filled email to `CONTACT_EMAIL`. To receive submissions without relying on the visitor's email app, create a free form at [formspree.io](https://formspree.io) and paste its endpoint into `FORM_ENDPOINT` at the bottom of `script.js`.
 
 ## Deploying
 
