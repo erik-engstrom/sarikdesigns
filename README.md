@@ -25,7 +25,6 @@ Then open http://localhost:4173.
 Search `index.html` for `[` to find them:
 
 - `[CITY / SERVICE AREA]` and `[CITY, STATE]`
-- `[YOUR PRICE]` (Launch, Refresh), `[PRICE]` (add-ons) and `[#]` pages
 - `[TYPICAL TIMELINE]`
 - `[YOUR PHONE]`
 - Email is set to `hello@sarikdesigns.com` in `index.html` and `script.js`; change it if you use a different address.

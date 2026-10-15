@@ -217,6 +217,7 @@ p { margin: 0; }
 .featured .icon svg { stroke: var(--mint); }
 .package .for { margin-top: 18px; }
 .price { font: 800 2.1rem/1 var(--display); color: var(--ink) !important; margin: 30px 0 0; padding-bottom: 26px; border-bottom: 1px solid var(--line); letter-spacing: -0.02em; }
+.price .from { display: block; font: 600 .85rem/1 var(--body); letter-spacing: .08em; text-transform: uppercase; color: var(--text); margin-bottom: 8px; }
 .package .checks { margin-bottom: 32px; flex: 1; align-content: start; }
 .package .checks li { color: var(--ink); }
 .featured { background: var(--ink); border-color: var(--ink); }
