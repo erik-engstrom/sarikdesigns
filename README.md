@@ -53,4 +53,4 @@ Fonts: Bricolage Grotesque (headings), Instrument Sans (body), from Google Fonts
 
 ## Design rules for Claude
 
-`.claude/skills/sarik-site/SKILL.md` is the house style for this site: locked brand, banned "AI look" patterns, honest-proof rules and the conversion checklist. Claude Code uses it for any change to the site. (`.claude/skills/web-design/` is the original client-mockup skill it was adapted from.)
+`.claude/skills/sarik-site/SKILL.md` is the house style for this site: locked brand, banned "AI look" patterns, honest-proof rules and the conversion checklist. Claude Code uses it for any change to the site.
