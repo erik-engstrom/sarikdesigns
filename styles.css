@@ -70,6 +70,7 @@ p { margin: 0; }
 .site-nav { display: flex; align-items: center; gap: 32px; }
 .site-nav a:not(.btn) { text-decoration: none; font-weight: 500; }
 .site-nav a:not(.btn):hover { color: var(--green); }
+.header-cta { display: none; }
 .menu-toggle {
   display: none; width: 48px; height: 48px; border-radius: var(--r);
   border: 1px solid var(--line); background: #fff; cursor: pointer;
@@ -283,6 +284,7 @@ p { margin: 0; }
 
 @media (max-width: 860px) {
   .menu-toggle { display: flex; }
+  .header-cta { display: inline-flex; margin-left: auto; margin-right: 8px; padding: 10px 14px; font-size: .92rem; }
   .site-nav {
     position: absolute; top: 76px; left: 0; right: 0;
     flex-direction: column; align-items: stretch; gap: 4px;
@@ -297,6 +299,10 @@ p { margin: 0; }
 @media (max-width: 640px) {
   body { font-size: 16px; }
   .wrap { padding: 0 20px; }
+  .brand { gap: 8px; font-size: 1.12rem; }
+  .brand-mark { width: 36px; height: 36px; }
+  .header-cta { padding: 9px 12px; font-size: .88rem; }
+  .menu-toggle { width: 44px; height: 44px; }
   .hero { padding: 32px 0 64px; }
   .kicker { font-size: .92rem; margin-bottom: 18px; align-items: flex-start; }
   .kicker .sun { margin-top: 5px; }
