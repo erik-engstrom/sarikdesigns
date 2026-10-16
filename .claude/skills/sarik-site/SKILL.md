@@ -31,7 +31,8 @@ Don't change these without the owner asking. Use the tokens in `styles.css`, not
 - **Colors (5):** green `#216f5d` (primary, buttons, numbers), ink `#18262b` (text, dark
   bands), cream `#f5f2eb` (page), sun `#f0b86e` (small accents only: the sun dot, focus
   rings, "today" highlights), mint `#9fd9c1` (accents on dark backgrounds). White for
-  alternating sections. Body text `#3f484d`. No new hues, no gradients.
+  alternating sections. Body text `#3f484d`; on dark backgrounds `--on-dark` and
+  `--on-dark-muted`, on green `--on-green`. No new hues, no gradients.
 - **Type:** Bricolage Grotesque (display: headings, prices, big numbers) and Instrument Sans
   (everything else). No third font.
 - **Logos:** the Round badge (`#badge` symbol inline, `assets/brand/round-badge.svg`) in the

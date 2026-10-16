@@ -24,6 +24,8 @@ const CONTACT_EMAIL = 'hello@sarikdesigns.com';
 const form = document.getElementById('review-form');
 const statusEl = form.querySelector('.form-status');
 const submitBtn = form.querySelector('button[type="submit"]');
+const formNote = document.getElementById('form-note');
+if (FORM_ENDPOINT) formNote.textContent = 'This sends your details straight to us.';
 
 // "Book a free site review" links jump to the form and put the cursor in it
 document.querySelectorAll('a[href="#contact"]').forEach((a) =>

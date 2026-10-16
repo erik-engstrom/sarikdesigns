@@ -27,6 +27,8 @@ Search `index.html` for `[` to find them:
 - `[CITY / SERVICE AREA]` and `[CITY, STATE]`
 - `[TYPICAL TIMELINE]`
 - `[YOUR PHONE]`
+- `[REPLY TIME]`: how soon you reply to a review request (contact section)
+- `[WHO OWNS THE SITE, DOMAIN AND CONTENT]`: answer to the ownership FAQ
 - Email is set to `hello@sarikdesigns.com` in `index.html` and `script.js`; change it if you use a different address.
 
 ## Review request form
